@@ -73,7 +73,7 @@ export default function Login() {
                       <div className="mt-3">
                         <p className="mb-0  text-center">
                           Já sou cadastrado: {" "}
-                          <RouterLink className="text-primary fw-bold" to={`/`}>
+                          <RouterLink className="text-primary fw-bold" to={`/login`}>
                             login
                           </RouterLink>
                         </p>

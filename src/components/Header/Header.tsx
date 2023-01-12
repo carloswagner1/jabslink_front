@@ -25,7 +25,7 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav ">
           <Nav fill className="me-auto" variant="tabs" defaultActiveKey="/home">
             <Nav.Item>
-              <Link className="nav-link active" aria-current="page" to="home">
+              <Link className="nav-link active" aria-current="page" to="/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg "
                   width="16"
