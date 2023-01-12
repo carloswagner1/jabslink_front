@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "company": "Company IT",
+        "position": "Desenvolvedor(a) .Net",
+        "area": "Tecnologia",
+        "startDate": "24/01/2021",
+        "finalDate": "o momento",
+        "locality": "Sorocaba, SP, Brasil",
+        "modality": "Remoto",
+        "skills": " Automação de testes · React.js · HTML5 · CSS · Bootstrap · Microsoft SQL Server · JavaScript · Windows Presentation Foundation (WPF) · API de ASP.NET para Web · Entity Framework · ASP.NET · C# · .NET Framework"
+    },
+    {
+        "id": "2",
+        "company": "Soft Factory Ltda",
+        "position": "Desenvolvedor(a) FullStack",
+        "area": "Tecnologia",       
+        "startDate": "01/12/2018",
+        "finalDate": "23/01/2021", 
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "skills": "React.js · HTML5 · CSS · Bootstrap · Microsoft SQL Server · JavaScript · API de ASP.NET para Web · Entity Framework · ASP.NET · Desenvolvimento de software · C# · .NET Framework"
+    },
+    {
+        "id": "3",
+        "company": " Soft Factory Ltda",
+        "position": "Estagiário(a)",
+        "area": "Tecnologia",
+        "startDate": "01/03/2018",
+        "finalDate": "30/11/2018",
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "skills": "HTML5 · CSS · Bootstrap · Javascript"
+    }
+]

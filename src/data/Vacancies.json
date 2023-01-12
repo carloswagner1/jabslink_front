@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "position": "Desenvolvedor Backend",
+        "area": "Tecnologia",
+        "typeContraction": "PJ",
+        "locality": "Sorocaba, SP, Brasil",
+        "modality": "Remoto",
+        "remuneration": "R$ 3.000,00",
+        "benefits": "vale-refeição, plano de saúde, vale transporte",
+        "requirements": " Conhecimento e experiência com: C# Angular, HTML e CSS, JavaScript, Git, SQL Server, Azure         Conhecimento de Metodologias Ágeis"
+    },
+    {
+        "id": "2",
+        "position": "Desenvolvedor Frontend",
+        "area": "Tecnologia",
+        "typeContraction": "CLT",
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "remuneration": "R$ 3.000,00",
+        "benefits": "vale-refeição, plano de saúde, vale transporte",
+        "requirements": "Conhecimento intermediário de lógica de programação, permitindo o desenvolvimento com mentoria; Conhecimento intermediário de alguma linguagem de programação, aderente ao time que trabalha (HTML5, CSS3, React, NodeJS, JavaScript, TypeScript) permitindo o desenvolvimento com mentoria"
+    },
+    {
+        "id": "3",
+        "position": "Assistente Administrativo",
+        "area": "Administrativa",
+        "typeContraction": "CLT",
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "remuneration": "R$ 3.000,00",
+        "benefits": "vale-refeição, plano de saúde, vale transporte",
+        "requirements": "Experiência prévia na função administrativa.Demostrar alta capacidade de organização e atenção aos detalhes. Capacidade para realizar múltiplas tarefas e cumprir prazos.Capaz de guardar informação confidencial.Clareza ao passar informações profisssionais por telefone.Boas habilidades interpessoais."
+    },
+    {
+        "id": "4",
+        "position": "Advogado Jr",
+        "area": "Jurídico",
+        "typeContraction": "CLT",
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "remuneration": "R$ 3.000,00",
+        "benefits": "vale-refeição, plano de saúde, vale transporte",
+        "requirements": "Formação superior completa em Direito entre 2015 e 2018; Atuação prévia com operações de Mercado de Capitais (dívida), projetos de infraestrutura e financiamento de projetos;Inglês avançado/ fluente."
+     },
+    {
+        "id": "5",
+        "position": "Consultor de Vendas",
+        "area": "Comercial",
+        "typeContraction": "CLT",   
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "remuneration": "R$ 3.000,00",
+        "benefits": "vale-refeição, plano de saúde, vale transporte",
+        "requirements": "Perfil: Proativo, dinâmico, comunicativo, habilidade em negociação, organizado, foco no cliente e metas de vendas; Experiência com vendas e metas; Ensino Médio Completo; Conhecimento no Pacote Office."
+    },
+    {
+        "id": "6",
+        "position": "Analista de Sistemas",
+        "area": "Tecnologia",
+        "typeContraction": "PJ",
+        "locality": "Sorocaba, SP, Brasil",
+        "modality": "Remoto",
+        "remuneration": "R$ 3.000,00",
+        "benefits": "vale-refeição, plano de saúde, vale transporte",
+        "requirements": "Identificação de problemas com os clientes; Participar de reuniões com outros times da empresa; Representar o time de desenvolvimento nas reuniões com os clientes. Levantamento de requisitos; Banco de Dados;"
+    }
+]

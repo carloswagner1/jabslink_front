@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "position": "Desenvolvedor Backend",
+        "locality": "Sorocaba, SP, Brasil",
+        "modality": "Remoto",
+        "status": "Entrevista"
+    },
+    {
+        "id": "2",
+        "position": "Desenvolvedor Frontend",
+        "locality": "São Paulo, SP, Brasil",
+        "modality": "Remoto",
+        "status": "Teste de Perfil"
+    },
+    {
+        "id": "6",
+        "position": "Analista de Sistemas",
+        "locality": "Sorocaba, SP, Brasil",
+        "modality": "Remoto",
+        "status": "Teste de Perfil"
+    }
+]
