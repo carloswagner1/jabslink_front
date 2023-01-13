@@ -1,4 +1,4 @@
-import { Form, Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import candidate from "data/candidate.json";
 import Photo from "../../assets/images/foto1.jpg";

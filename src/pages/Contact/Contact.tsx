@@ -1,4 +1,4 @@
-import ContactForm from "components/ContactForm/ContactForm";
+import ContactForm from "components/ContactForm";
 import ContactTag from "components/Tags/ContactTag";
 import { Col, Container, Row } from "react-bootstrap";
 
