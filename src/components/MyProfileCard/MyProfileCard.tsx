@@ -1,4 +1,4 @@
-import { Card, Col, Row } from "react-bootstrap";
+import { Form, Card, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import candidate from "data/candidate.json";
 import Photo from "../../assets/images/foto1.jpg";
@@ -14,7 +14,7 @@ export default function profileCard() {
         <Card className="mb-3 p-2" key={profile.id}>
           <Row className="g-0">
             <Col className="md-4">
-              <Card.Img  className="sm-2" src={Photo} />
+              <Card.Img className="sm-2" src={Photo} />
             </Col>
             <Col className="md-8">
               <Card.Body className="sm-8 h-100">

@@ -95,8 +95,12 @@ function Header() {
               id="collasible-nav-dropdown-start "
               drop="start"
             >
-              <NavDropdown.Item href="myprofile">Meu Perfil</NavDropdown.Item>
-              <NavDropdown.Item href="contact">Contato</NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link className="text-black" style={{ textDecoration: 'none'}} to={"./myprofile"}>Meu Perfil</Link>                
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+              <Link className="text-black" style={{ textDecoration: 'none' }} to={"./contact"}>Contato</Link> 
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="login">Logout</NavDropdown.Item>
             </NavDropdown>

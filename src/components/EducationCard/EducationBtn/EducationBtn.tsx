@@ -56,7 +56,7 @@ export default function EducationBtn({ tipo,variant }: Props ) {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="danger" onClick={handleClose}>
+          <Button variant="danger" onClick={handleClose} value="Fechar">
             Fechar
           </Button>
           <Button variant="primary" onClick={handleClose}>
