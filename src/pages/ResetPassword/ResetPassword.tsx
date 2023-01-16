@@ -8,7 +8,7 @@ export default function ResetPassword() {
         <h3 className="h3 mb-4 fw-normal text-lg-center ">
           Recuperação de senha
         </h3>
-        <h5 className="m-2 mb-4 fw-normal ">Informe seu email</h5>
+        <h5 className="m-2 mb-4 fw-normal ">Informe o email cadastrado</h5>
         <Form.Floating className="form-floating">
           <Form.Control
             type="email"
@@ -25,7 +25,7 @@ export default function ResetPassword() {
         <div className="mt-3">
           <p className="mb-0  text-center">
             Retornar ao {" "}
-            <RouterLink to={"../login"} className="text-primary fw-bold">
+            <RouterLink to={"../"} className="text-primary fw-bold">
               login
             </RouterLink>
           </p>          

@@ -2,7 +2,8 @@ import { Card, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import candidate from "data/candidate.json";
 import Photo from "../../assets/images/foto1.jpg";
-import EditProfileBtn from "components/ProfileCard/EditProfileBtn/EditProfileBtn";
+import EditProfileBtn from "components/MyProfileCard/EditProfileData/EditProfileData";
+import EditPhoto from "./EditPhoto/EditPhoto";
 
 export default function profileCard() {
   //const perfil = JSON.parse(state.candidato);
@@ -17,6 +18,9 @@ export default function profileCard() {
               <Card.Img className="sm-2" src={Photo} />
             </Col>
             <Col className="md-8">
+              <Row>
+                
+              </Row>
               <Card.Body className="sm-8 h-100">
                 <Card.Title className="fs-4">{profile.name}</Card.Title>
                 <Card.Text>
@@ -33,8 +37,10 @@ export default function profileCard() {
                   </span>
                   <div className="clearfix"></div>
                   Telefone: <span>{profile.phone}</span>
-                </Card.Text>
-                <EditProfileBtn />
+                </Card.Text>                
+                <EditProfileBtn />                
+                <EditPhoto />                
+                
               </Card.Body>
             </Col>
           </Row>

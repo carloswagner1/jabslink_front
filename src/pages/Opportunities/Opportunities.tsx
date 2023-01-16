@@ -4,7 +4,7 @@ import OpportunitiesTag from "components/Tags/OpportunitiesTag";
 import OpportinitiesSelect from "components/OpportunitiesSelect/OpportunitiesSelect";
 import OpportunitiesCard from "components/OpportunitiesCard/OpportunitiesCard";
 
-export default function MyVacancies() {
+export default function Opportunities() {
   return (
     <Container className="mt-4">
       <Row>
