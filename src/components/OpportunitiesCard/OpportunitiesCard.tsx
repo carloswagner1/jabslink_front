@@ -15,7 +15,7 @@ export default function OpportunitiesCard() {
                 {vacancy.requirements}
                 <div className="clearfix"></div>
                 <strong>Tipo de contratação: </strong>
-                {vacancy.typeContraction}
+                {vacancy.hiringType}
                 <div className="clearfix"></div>
                 <strong>Benefícios: </strong>
                 {vacancy.benefits}

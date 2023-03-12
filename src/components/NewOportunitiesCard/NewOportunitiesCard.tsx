@@ -18,7 +18,7 @@ export default function NewOportunitiesCard() {
                     <div className="clearfix"></div>
                     {vacancy.modality}
                     <div className="clearfix"></div>
-                    {vacancy.typeContraction}
+                    {vacancy.hiringType}
                     <div className="clearfix"></div>
                     {vacancy.locality}
                     <div className="clearfix"></div>

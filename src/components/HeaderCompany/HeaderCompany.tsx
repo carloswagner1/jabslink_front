@@ -46,7 +46,7 @@ export default function HeaderCompany() {
                 title="Processos Seletivos"
                 menuVariant="light"                
               >
-                <NavDropdown.Item href="newprocess" >Novo Processo</NavDropdown.Item>
+                <NavDropdown.Item><Link className="text-black" style={{ textDecoration: 'none'}} to={"./newProcess"}>Novo Processo Seletivo</Link></NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1" >Processos em Andamento</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Processos Encerrados

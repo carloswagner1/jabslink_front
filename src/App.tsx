@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/Login/Login";
+import Login from "./pages/CandidateLogin/CandidateLogin";
 import SignUp from "pages/SignUp/Signup";
 import Dashboard from "pages/Home/Home";
 import MyVacancies from "pages/MyVacancies/MyVacancies";

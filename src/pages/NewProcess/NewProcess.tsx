@@ -1,4 +1,3 @@
-import ChangePasswordForm from "components/ChangePasswordForm/ChangePasswordForm";
 import NewProcessForm from "components/NewProcessForm/NewProcessForm";
 import ChangePasswordTag from "components/Tags/ChangePasswordTag";
 import { Col, Container, Row } from "react-bootstrap";
