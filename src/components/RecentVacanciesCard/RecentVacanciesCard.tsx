@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 import recentVacancies from "data/recentVacancies.json";
+import { Link } from "react-router-dom";
 
 export default function RecentVacancies() {  
   return (
@@ -18,9 +19,7 @@ export default function RecentVacancies() {
             </Card.Text>
           </>
         ))}
-        <a href="myvacancies" className="btn btn-primary">
-          Ver mais
-        </a>
+        <Link className="btn btn-primary" style={{ textDecoration: 'none'}} to={"./myvacancies"}>Ver mais</Link>        
       </Card.Body>
     </Card>
   );

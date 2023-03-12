@@ -14,7 +14,6 @@ import CandidateMasterPage from "components/CandidateMasterPage/CandidateMasterP
 import ResetPassword from "pages/ResetPassword/ResetPassword";
 import ChangePassword from "pages/ChangePassword/ChangePassword";
 import CompanyMasterPage from "components/CompanyMasterPage/CompanyMasterPage";
-import NewProcessForm from "components/NewProcessForm/NewProcessForm";
 import NewProcess from "pages/NewProcess/NewProcess";
 
 function App() {

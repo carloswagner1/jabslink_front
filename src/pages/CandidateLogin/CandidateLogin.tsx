@@ -5,12 +5,12 @@ export default function CandidateLogin() {
   return (
     <>
       <Form>
-        <h3 className="h3 mb-4 fw-normal text-lg-center ">Login</h3>
-        <h5 className="m-2 mb-4 fw-normal ">Informe seu email e senha</h5>
+        <h3 className="h3 fw-normal text-lg-center ">Login</h3>
+        <h5 className="m-2 fw-normal ">Informe seu email e senha</h5>
         <Form.Floating className="form-floating">
           <Form.Control
             type="email"
-            className="form-control"
+            className="form-control name"
             id="floatingInput"
             placeholder="name@example.com"
           />
@@ -19,7 +19,7 @@ export default function CandidateLogin() {
         <Form.Floating className="form-floating ">
           <Form.Control
             type="password"
-            className="form-control"
+            className="form-control password"
             id="floatingPassword"
             placeholder="Password"
           />

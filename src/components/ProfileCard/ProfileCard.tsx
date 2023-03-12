@@ -26,9 +26,7 @@ export default function profileCard() {
               <div className="clearfix"></div>
               Telefone: <span>{profile.phone}</span>
             </Card.Text>
-            <a href="myprofile" className="btn btn-primary">
-              Meu Perfil
-            </a>
+            <Link className="btn btn-primary" style={{ textDecoration: 'none'}} to={"./myprofile"}>Meu Perfil</Link> 
           </Card.Body>
         </Card>
       ))}

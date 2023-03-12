@@ -10,7 +10,7 @@ interface Props {
   variant: string;
 }
 
-export default function ExperienceBtn({ tipo, variant }: Props) {
+export default function ExperienceBtn(props: Props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -18,12 +18,12 @@ export default function ExperienceBtn({ tipo, variant }: Props) {
 
   return (
     <>
-      <Button className="m-1" variant={variant} onClick={handleShow}>
-        {tipo}
+      <Button className="m-1" variant={props.variant} onClick={handleShow}>
+        {props.tipo}
       </Button>
       <Modal size="lg" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{tipo} experiência</Modal.Title>
+          <Modal.Title>{props.tipo} experiência</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form className="form-inline">
@@ -100,7 +100,7 @@ export default function ExperienceBtn({ tipo, variant }: Props) {
           <Button variant="danger" onClick={handleClose}>
             Fechar
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={handleClose} type="submit">
             Salvar
           </Button>
         </Modal.Footer>
