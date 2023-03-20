@@ -15,6 +15,7 @@ import ResetPassword from "pages/ResetPassword/ResetPassword";
 import ChangePassword from "pages/ChangePassword/ChangePassword";
 import CompanyMasterPage from "components/CompanyMasterPage/CompanyMasterPage";
 import NewProcess from "pages/NewProcess/NewProcess";
+import ErrorPage from "pages/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="reset" element={<ResetPassword />} />
         <Route path="sign-up" element={<SignUp />} />
+        <Route path="error404" element={<ErrorPage />} />        
       </Route>
 
       <Route path="/candidate" element={<CandidateMasterPage />}>
